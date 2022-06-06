@@ -1,0 +1,51 @@
+#block{
+    /* border: 2px solid red; */
+    width: 40vw;
+    height: 40vw;
+    margin: auto;
+    margin-top: 3%;
+    background-image: url("Inked5_LI.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative; /*yeh is liye kiya k jo is k inner cheeze hein wo is k relative move kare...agar yeh na kare ge to vertically needles responsive nai hoon gi*/
+}
+#hour, #minute, #second, #dot{
+    position: absolute; /*yeh hum ne is liye kiya k hum easily needles ki location set kar sakeen i.e. left right kar k.....*/
+    border-radius: 1px solid green;
+    border-radius: .2em;
+    opacity: 0.8;
+    transform-origin: bottom ;
+}
+#hour{
+    background-color: red;
+    width: 2%;
+    height: 25%;
+    top: 26%;
+    left: 49.2%;
+}
+#minute{
+    background-color: blue;
+    width: 2%;
+    height: 37%;
+    top: 14%;
+    left: 49.4%;
+}
+#second{
+    background-color: black;
+    width: 1%;
+    height: 45%;
+    top: 6%;
+    left: 50%;
+}
+#dot{
+    width: 2vw;
+    height: 2vw;
+    background-color: black;
+    border: 4px solid red;
+    border-radius: 50%;
+    box-sizing: border-box;
+    left: 47.7%;
+    top: 48.3%;
+    
+}
